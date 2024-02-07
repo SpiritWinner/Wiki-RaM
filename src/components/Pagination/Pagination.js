@@ -6,6 +6,8 @@ const PaginationContainer = styled.ul`
     display: flex;
     list-style-type: none;
     justify-content: center;
+    margin: 0;
+	  padding: 0;
 `;
 
 const PaginationItem = styled.li`
