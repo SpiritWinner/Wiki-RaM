@@ -12,13 +12,13 @@ const PopupBox = styled.div`
 
 const Box = styled.div`
     position: relative;
-    width: 70%;
+    width: fit-content;
     margin: 0 auto;
     height: auto;
     max-height: 70vh;
     margin-top: calc(100vh - 85vh - 20px);
     background: #fff;
-    border-radius: 4px;
+    border-radius: 15px;
     padding: 20px;
     border: 1px solid #999;
     overflow: auto;
@@ -27,9 +27,9 @@ const Box = styled.div`
 const CloseIcon = styled.span`
     content: 'x';
     cursor: pointer;
-    position: fixed;
-    right: calc(15% - 30px);
-    top: calc(100vh - 85vh - 33px);
+    position: absolute;
+    right: 15px;
+    top: auto;
     background: #ededed;
     width: 25px;
     height: 25px;

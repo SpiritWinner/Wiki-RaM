@@ -56,6 +56,8 @@ function App() {
 
   let { info, results } = fetchedData;
 
+  console.log(info);
+
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
 
   useEffect(() => {
