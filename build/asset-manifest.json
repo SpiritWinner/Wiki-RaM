@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Wiki-RaM/static/css/main.3e6e8499.css",
+    "main.js": "/Wiki-RaM/static/js/main.b3cc7c8e.js",
+    "index.html": "/Wiki-RaM/index.html",
+    "main.3e6e8499.css.map": "/Wiki-RaM/static/css/main.3e6e8499.css.map",
+    "main.b3cc7c8e.js.map": "/Wiki-RaM/static/js/main.b3cc7c8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e6e8499.css",
+    "static/js/main.b3cc7c8e.js"
+  ]
+}
